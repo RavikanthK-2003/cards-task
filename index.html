@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the team</title>
+    <style>
+        body{
+            color: snow;
+        }
+
+        .main-heading{
+            color: indigo;
+        }
+
+        .main-subtitle{
+            color: gray;
+        }
+
+        .team-member{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            line-height: 20px;
+            padding: 15px;
+        }
+
+        .team-member>p{
+            opacity: 0.8;
+        }
+
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+            background-color: antiquewhite;
+            border-radius: 10px;
+        }
+
+        section{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        footer{
+            background-color: rgb(104, 93, 93);
+            text-align: center;  
+            position: absolute; 
+            bottom: 0; 
+            left: 0;       
+            padding: 10px;
+            height: 50px;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        img{
+            border-radius: 50%;
+        }
+
+        #anna{
+            background-color: darkcyan;
+            color: beige;
+        }
+
+        #anna>h3,h2{
+            color: honeydew;
+        }
+
+        #harry{
+            background-color: cornsilk;
+            color: darkcyan;
+        }
+
+        #harry>h3{
+            color: darkslategray;
+        }
+
+        #harry>h2{
+            color: darkslategray;
+        }
+
+        #sofia{
+            background-color: dodgerblue;
+            color: lightcyan;
+        }
+
+        #sofia>h2,h3{
+            color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">Meet the team</h1>
+        <h3 class="main-subtitle">Meet the people who make this software awesome</h3>
+    </header>
+    <section>
+        <div class="team-member" id="anna">
+            <img src="img/1.png" alt="anna_img" width="100" height="100"/>
+            <h2>Anna Kendrick</h2>
+            <h3>Front-end Ninja</h3>
+            <p>Bibliophile, loves to dive into fictional worlds, ships JS code like brownies</p>
+        </div>
+        <div class="team-member" id="harry">
+            <img src="img/2.jpeg" alt="harry_img" width="100" height="100"/>
+            <h2>Harry Fawn</h2>
+            <h3>Illustrator</h3>
+            <p>Creates new illustrations each week, will kill for coffee, and loves beaches.</p>
+        </div>
+        <div class="team-member" id="sofia">
+            <img src="img/3.jpeg" alt="sofia_img" width="100" height="100"/>
+            <h2>Sofia Sultan</h2>
+            <h3>Backend Engineer</h3>
+            <p>Donuts over waffles. Martinis over whiskeys. Typescript over anything.</p>
+        </div>
+    </section>
+    <footer>
+        <p>2023 copyrights &copy; reserved</p>
+    </footer>
+</body>
+</html>
